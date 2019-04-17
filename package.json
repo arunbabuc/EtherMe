@@ -1,0 +1,32 @@
+{
+  "name": "etherme",
+  "version": "0.0.1",
+  "description": "Node based application for build,test and deploy solidity contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunbabuc/EtherMe.git"
+  },
+  "keywords": [
+    "solidity",
+    "node",
+    "ethereum",
+    "smart",
+    "contract"
+  ],
+  "author": "arunbabuc@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/arunbabuc/EtherMe/issues"
+  },
+  "homepage": "https://github.com/arunbabuc/EtherMe#readme",
+  "dependencies": {
+    "ansi-regex": "^4.1.0",
+    "mocha": "^6.1.3",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.35"
+  }
+}
