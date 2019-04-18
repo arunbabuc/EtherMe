@@ -32,3 +32,6 @@ npm link ganache-cli
 * solc  - solidity compiler
 * web3  - module used to communicate with Ethereum network
 * ganache - module to create a ethereum network locally for unit tests
+* Also feel free to explore these wonderful tools
+* * https://remix.ethereum.org 
+* * https://truffleframework.com/
