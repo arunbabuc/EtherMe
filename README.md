@@ -27,3 +27,8 @@ npm link ganache-cli
 - to run tests "npm run test"
 
 
+### Notes 
+* mocha - unit test framework for nodejs
+* solc  - solidity compiler
+* web3  - module used to communicate with Ethereum network
+* ganache - module to create a ethereum network locally for unit tests
