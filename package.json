@@ -4,7 +4,7 @@
   "description": "Node based application for build,test and deploy solidity contracts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/arunbabuc/EtherMe#readme",
   "dependencies": {
+    "ganache-cli": "~6.4.3",
     "mocha": "^6.1.3",
     "solc": "^0.4.25",
     "web3": "^1.0.0-beta.35",
-    "ganache-cli": "~6.4.3"
+    "yargs": "^13.2.2",
+    "yargs-unparser": "^1.5.0"
   }
 }
