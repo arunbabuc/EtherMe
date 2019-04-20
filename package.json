@@ -27,6 +27,7 @@
     "ganache-cli": "~6.4.3",
     "mocha": "^6.1.3",
     "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.35",
     "yargs": "^13.2.2",
     "yargs-unparser": "^1.5.0"

@@ -1,12 +1,14 @@
 const path = require('path')
 const fs = require('fs')
 const solc = require('solc')
+const config = require('./config');
 
-const filePath = path.resolve(__dirname, 'contracts', 'example.sol')
+const filePath = path.resolve(__dirname, config.directory, config.solFile)
 const source = fs.readFileSync(filePath, 'utf8')
 
-// compile the single source file
-console.log(solc.compile(source, 1))
+// compile the single source file - this is just for debugging
+// I know its double compilation here :) 
+console.log(solc.compile(source, 1));
 //{ contracts:
 //   { ':Example':
 //      { assembly: [Object],
@@ -24,4 +26,4 @@ console.log(solc.compile(source, 1))
 //        srcmapRuntime: '26:316:0:-;;;;..' } },
 //  sourceList: [ '' ],
 //  sources: { '': { AST: [Object] } } }
-module.exports = solc.compile(source, 1).contracts[':Example']
+module.exports = solc.compile(source, 1).contracts[config.contractName];

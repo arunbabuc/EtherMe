@@ -3,7 +3,7 @@ pragma solidity ^0.4.25;
 contract Example{
     string private message;
 
-    function Example(string initialMessage) public {
+    constructor (string initialMessage) public {
         message = initialMessage;
     }
 
