@@ -38,3 +38,6 @@ To compile and deploy
 * Also feel free to explore these wonderful tools
 * * https://remix.ethereum.org
 * * https://truffleframework.com/
+* We use solc version 0.4.25 here. The 0.5< versions have some breaking changes. Will move to the later version support sometime in the future.
+
+### Logs from Deployment
